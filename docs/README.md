@@ -7,8 +7,8 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Project name
-tagline: You can place the description of the project here.
+heroText: 我的个人博客
+tagline: 你好我叫RUX
 actions:
   - text: How to Use
     icon: lightbulb
