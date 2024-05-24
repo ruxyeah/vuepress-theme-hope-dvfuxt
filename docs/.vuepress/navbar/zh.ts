@@ -1,8 +1,13 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
-  "/zh/demo/",
+  "/",
+  {
+    text: "AI",
+    icon: "laptop-code",
+    prefix: "/ai/",
+    link: "/ai/",
+  },
   {
     text: "指南",
     icon: "lightbulb",
@@ -23,8 +28,8 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "V2 文档",
+    text: "ChatGPT",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "https://chat-gpt-next-web-git-main-ruxs-projects.vercel.app/",
   },
 ]);
